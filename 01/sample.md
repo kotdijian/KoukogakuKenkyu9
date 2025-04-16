@@ -41,13 +41,16 @@ layout: false
 ## GISとは何か?
 
 > 地理情報システム（GIS：Geographic Infor-mation System）は、地理的位置を手がかりに、位置に関する情報を持ったデータ（空間データ）を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術である。
-　[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
+
+<div style="text-align: right;">[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)</div>
 
 >　GIS（ジー アイ エス）とは（中略）日本語では地理情報システムと訳されます。　地球上に存在する地物や事象はすべて地理情報と言えますが、これらをコンピューターの地図上に可視化して、情報の関係性、パターン、傾向をわかりやすいかたちで導き出すのが GIS の大きな役割です。
-　[Esriジャパン「GISをはじめよう　GISとは?」](https://www.esrij.com/getting-started/what-is-gis/)
+
+<div style="text-align: right;">[Esriジャパン「GISをはじめよう　GISとは?」](https://www.esrij.com/getting-started/what-is-gis/)</div>
 
 >　地理情報システム（中略）とは、地理情報および付加情報をコンピュータ上で作成・保存・利用・管理・表示・検索するシステムを言う。
-　[Wikipedia日本語版「地理情報システム」](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%86%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
+
+<div style="text-align: right;">　[Wikipedia日本語版「地理情報システム」](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%86%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)</div>
 ---
 
 ###### 4
