@@ -28,6 +28,7 @@ class: center, middle, inverse
 
 ---
 ###### 2
+{: align="center"}
 # 早速ですが、GIS知ってますか?
 
 ---
