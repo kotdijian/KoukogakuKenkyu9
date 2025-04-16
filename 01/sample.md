@@ -7,7 +7,6 @@ class: center, middle, inverse
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
 ---
-layout:false
 ###### 0
 ## 考古学研究9
 
