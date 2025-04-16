@@ -10,8 +10,6 @@ class: center, middle, inverse
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
 ---
-layout: false
-
 ###### 0
 # 考古学研究9
 
@@ -20,6 +18,8 @@ layout: false
 考古学研究において、地理空間情報は分布や地域性などの把握に不可欠なものであり、時間（時代・年代）情報と並び重要なデータである。この授業ではGIS（地理情報システム）の利用を前提として、考古地理空間情報データの取得・作成と各種分析方法、さらに統計解析用プログラミング言語であるRを用いた空間分析の手法などを、実習を交えて学ぶ。
 
 ---
+layout: false
+
 ###### 1
 ## 講師自己紹介
 * 野口　淳（54）
@@ -40,6 +40,8 @@ class: center, middle, inverse###### 2
 # 早速ですが、GIS知ってますか?
 [![GISイメージ](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/GISimage01.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/GISimage01.png)
 
+* GISについて知っていることを教えてください
+
 ---
 layout: false
 ###### 3
@@ -47,7 +49,9 @@ layout: false
 
 > 地理情報システム（GIS：Geographic Infor-mation System）は、地理的位置を手がかりに、位置に関する情報を持ったデータ（空間データ）を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術である。
 
-<div style="text-align: right;"> [国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html) </div>
+<div style="text-align: right;"> 
+  <a href="https://www.gsi.go.jp/GIS/whatisgis.html">国土地理院「GISとは</a>
+</div>
 
 >　GIS（ジー アイ エス）とは（中略）日本語では地理情報システムと訳されます。　地球上に存在する地物や事象はすべて地理情報と言えますが、これらをコンピューターの地図上に可視化して、情報の関係性、パターン、傾向をわかりやすいかたちで導き出すのが GIS の大きな役割です。
 
