@@ -156,7 +156,12 @@ layout: false
 ---
 ###### 11
 ## 考古学GISの一般的な実装＝遺跡地図
-#### 東京都遺跡地図情報インターネット提供サービス 
+#### [東京都遺跡地図情報インターネット提供サービス](https://tokyo-iseki.metro.tokyo.lg.jp/)
+* 東京都内の各自治体の遺跡地図・台帳データ
+      * 遺跡番号、遺跡名、所在地（住所）、時代、種別（遺跡種別）、主な遺構、主な出土品
+      * 属性から検索が可能
+* 国土地理院の標準地図を背景とする
+
 [![東京都遺跡地図](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/TokyoMETmap.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/TokyoMETmap.png)   
 
 ---
