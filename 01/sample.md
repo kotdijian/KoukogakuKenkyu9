@@ -160,8 +160,10 @@ layout: false
 
 <details>
 <summary>
+
 ## WebGIS
 </summary>
+
 #### ウェブブラウザ上で機能するウェブアプリ。インターネット接続が必須
 * [地理院地図](https://maps.gsi.go.jp/index.html) (国土地理院)
 * [ひなたGIS](https://hgis.pref.miyazaki.lg.jp/hinata/) （宮崎県）
