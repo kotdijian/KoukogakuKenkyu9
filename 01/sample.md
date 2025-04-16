@@ -30,7 +30,6 @@ layout: false
 [![講師自己紹介2](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)
 
 ---
-layout: true
 ###### 2
 
 # 早速ですが、GIS知ってますか?
@@ -42,16 +41,13 @@ layout: false
 ## GISとは何か?
 
 > 地理情報システム（GIS：Geographic Infor-mation System）は、地理的位置を手がかりに、位置に関する情報を持ったデータ（空間データ）を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術である。
-
-      [国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
+　[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
 
 >　GIS（ジー アイ エス）とは（中略）日本語では地理情報システムと訳されます。　地球上に存在する地物や事象はすべて地理情報と言えますが、これらをコンピューターの地図上に可視化して、情報の関係性、パターン、傾向をわかりやすいかたちで導き出すのが GIS の大きな役割です。
-
-      [Esriジャパン「GISをはじめよう　GISとは?」](https://www.esrij.com/getting-started/what-is-gis/)
+　[Esriジャパン「GISをはじめよう　GISとは?」](https://www.esrij.com/getting-started/what-is-gis/)
 
 >　地理情報システム（中略）とは、地理情報および付加情報をコンピュータ上で作成・保存・利用・管理・表示・検索するシステムを言う。
-
-      [Wikipedia日本語版「地理情報システム」](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%86%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
+　[Wikipedia日本語版「地理情報システム」](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%86%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
 ---
 
 ###### 4
@@ -59,22 +55,21 @@ layout: false
 
 > *地理情報システム（GIS：Geographic Infor-mation System）*は、<ins>地理的位置を手がかりに、位置に関する情報を持ったデータ（空間データ）</ins>を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術である。
 > *地理空間情報*とは、<ins>空間上の特定の地点又は区域の位置を示す情報（位置情報）</ins>と<ins>それに関連付けられた様々な事象に関する情報</ins>、もしくは位置情報のみからなる情報をいう。地理空間情報には、地域における自然、災害、社会経済活動など特定のテーマについての状況を表現する土地利用図、地質図、ハザードマップ等の主題図、都市計画図、地形図、地名情報、台帳情報、統計情報、空中写真、衛星画像等の多様な情報がある。
-
-      [国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
+　[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
 ---
 
 ###### 5
 ## GISの構成要件：位置情報と関連情報    
 
 .left-column[
-## 位置情報
+### 位置情報
 * どこにあるのか? 位置、場所、所在、範囲
 
   → 緯度経度、地理座標、地名、住所、郵便番号、標高、区域範囲、etc.
 ]
     
 .right-column[
-## 関連情報
+### 関連情報
 * なにがあるのか?　地物・地形の種類や名称
 * どのような状態なのか?
 * 付随するもの
@@ -87,21 +82,20 @@ layout: false
 
 > *地理空間情報*は、その<ins>位置情報をキーにして異なるデータを重ね合わせる</ins>ことで、分析等の活用がなされることから、様々な主体によって整備されるデータ間で位置情報の整合がとれている必要がある。このためには、<ins>地理空間情報を空間上の位置に対応づけるための基準となる基盤地図情報</ins>の整備・更新・提供が必要である。
 > 基盤地図情報とは、地理空間情報活用推進基本法第2条第3項において（中略）定義された、電子的な地理空間情報である。地理空間情報の整備に基盤地図情報が活用されることにより、地理空間情報の相互活用が容易になる。
-
-      [国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
+　[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
 
 ---
 ###### 7
 ## GISの機能を可能にする付加的な要素
 
 .left-column[
-## キー：　データを重ね合わせるために
+### キー：データ管理
 * 個々のデータを区別するためのID（UID）・識別子
 * データを紐づけるための参照・関係情報
 ]
     
 .right-column[
-## 基盤地図情報
+### 基盤地図情報
 * データ・情報の空間的位置・背景を明らかにする
 ]
 
@@ -126,21 +120,59 @@ layout: false
 [![GISモデル](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)
 
 ---
-###### 6
-## 考古学における地域研究1
-#### 構成要素の分布とは?    
-[![太郎良2019図1](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019fig1.png)](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019fig1.png) 
-[![太郎良2019図7-8](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019figs7-8.png)](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019figs7-8.png)    
+###### 9
+## GISソフト
+* [QGIS](qgis.org/ja/site/)　(QGIS Develpment Team)　オープンソース、無償
+* [ArcGIS](https://www.esrij.com/products/arcgis/) (Esri)　商業ソフト、有償
+
+## WebGIS
+#### ウェブブラウザ上で機能するウェブアプリ。インターネット接続が必須
+* [地理院地図](https://maps.gsi.go.jp/index.html) (国土地理院)
+* [ひなたGIS](https://hgis.pref.miyazaki.lg.jp/hinata/) （宮崎県）
+* [open-hinata](https://kenzkenz.xsrv.jp/open-hinata/)　(@kenzkenz)
+* [open-hinata3](https://kenzkenz.xsrv.jp/open-hinata3/) (@kenzkenz)
+* [Google Earth](https://www.google.co.jp/earth/) (Google LLC/ Alphabet)
+* [Googleマイマップ](https://www.google.co.jp/intl/ja/maps/about/mymaps/) (Google LLC/ Alphabet)
+
+#### ウェブ地図サービスとWebGISの違い・接点を考えてみよう
+
+###### 10
+## 考古学GISの一般的なデータモデル
+
+* ID：遺跡番号、調査地点・次数、遺構番号等
+* 名称：遺跡・遺跡群、調査区・地区、地点・トレンチ、遺構等
+* 位置：緯度経度、国土座標、住所等
+* 範囲：代表点、または範囲を区切る多角形
+* 時代：考古学的時代・時期区分、年代等
+* 種別：遺跡・遺構の種別
+* その他属性情報：遺物、その他の痕跡、理化学的分析等
 
 ---
-###### 6
-## 考古学における地域研究1
-#### 構成要素の分布とは?    
-[![太郎良2019図4-5](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019figs4-5.png)](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019figs4-5.png)   
+###### 11
+## 考古学GISの一般的な実装＝遺跡地図
+#### [東京都遺跡地図情報インターネット提供サービス](https://tokyo-iseki.metro.tokyo.lg.jp/)
+* 東京都内の各自治体の遺跡地図・台帳データ
+  - 遺跡番号、遺跡名、所在地（住所）、時代、種別（遺跡種別）、主な遺構、主な出土品
+  - 属性から検索が可能
+* 国土地理院の標準地図を背景とする
+
+[![東京都遺跡地図](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/TokyoMETmap.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/TokyoMETmap.png)   
 
 ---
-###### 7
-## 考古学における地域研究2
+###### 12
+## 東京都遺跡地図情報インターネット提供サービスはGISか?
+* データベース＝遺跡台帳
+* 基盤地図情報＝地理院地図
+* 検索が可能
+### ただし...
+* フロントエンド（利用者から見える部分）では地図サービスのように見える
+* バックエンド（裏方）にはデータベースがある＝GIS
+
+## GIS（WebGIS）とは言えないオンライン遺跡地図
+* 画像またはPDFファイルでの公開
+  - 紙の地図をウェブ上に置いただけ
+  - 遺跡位置、名称、内容は目視確認＝検索性がない
+
 #### 考古学の要素が従：「地域史」研究
 
 **地域史とは?**
