@@ -4,7 +4,8 @@ class: center, middle, inverse
 ---
 # ガイダンス・考古地理空間情報の基礎
 
-## 考古学研究9 第1回目
+## 考古学研究9
+#### 第1回目
 
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
@@ -30,7 +31,9 @@ layout: false
 [![講師自己紹介2](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)
 
 ---
-###### 2
+name: inverse
+layout: true
+class: center, middle, inverse###### 2
 
 # 早速ですが、GIS知ってますか?
 [![GISイメージ](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/GISimage01.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/GISimage01.png)
