@@ -22,7 +22,7 @@ layout:false
 * 産業技術研究所外来研究員、日本考古学協会理事、日本文化財保護協会顧問
 * 日本とアジアの旧石器時代、3D計測、データベース、GIS、博物館デジタルアーカイブ
 
-[![講師自己紹介](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme.png)]
+![講師自己紹介](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme.png)
 
 ---
 ###### 2
