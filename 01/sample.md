@@ -118,6 +118,7 @@ layout: false
 それが地図と連動して、地図上で展開する＝GIS
 
 [![GISモデル](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)
+]
 
 ---
 ###### 9
