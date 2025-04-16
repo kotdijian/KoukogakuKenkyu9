@@ -1,6 +1,6 @@
-name: inverse
+name: white
 layout: true
-class: center, middle, inverse
+class: center, middle, white
 ---
 # ガイダンス・考古地理空間情報の基礎
 
