@@ -67,14 +67,14 @@ layout: false
 ## GISの構成要件：位置情報と関連情報    
 
 .left-column[
-## 位置情報
+### 位置情報
 * どこにあるのか? 位置、場所、所在、範囲
 
   → 緯度経度、地理座標、地名、住所、郵便番号、標高、区域範囲、etc.
 ]
     
 .right-column[
-## 関連情報
+### 関連情報
 * なにがあるのか?　地物・地形の種類や名称
 * どのような状態なのか?
 * 付随するもの
@@ -95,13 +95,13 @@ layout: false
 ## GISの機能を可能にする付加的な要素
 
 .left-column[
-## キー：　データを重ね合わせるために
+### キー：　データを重ね合わせるために
 * 個々のデータを区別するためのID（UID）・識別子
 * データを紐づけるための参照・関係情報
 ]
     
 .right-column[
-## 基盤地図情報
+### 基盤地図情報
 * データ・情報の空間的位置・背景を明らかにする
 ]
 
@@ -126,17 +126,38 @@ layout: false
 [![GISモデル](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)
 
 ---
-###### 6
-## 考古学における地域研究1
-#### 構成要素の分布とは?    
-[![太郎良2019図1](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019fig1.png)](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019fig1.png) 
-[![太郎良2019図7-8](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019figs7-8.png)](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019figs7-8.png)    
+###### 9
+## GISソフト
+* [QGIS](qgis.org/ja/site/)　(QGIS Develpment Team)　オープンソース、無償
+* [ArcGIS](https://www.esrij.com/products/arcgis/) (Esri)　商業ソフト、有償
+
+## WebGIS
+#### ウェブブラウザ上で機能するウェブアプリ。インターネット接続が必須
+* [地理院地図](https://maps.gsi.go.jp/index.html) (国土地理院)
+* [ひなたGIS](https://hgis.pref.miyazaki.lg.jp/hinata/) （宮崎県）
+* [open-hinata](https://kenzkenz.xsrv.jp/open-hinata/)　(@kenzkenz)
+* [open-hinata3](https://kenzkenz.xsrv.jp/open-hinata3/) (@kenzkenz)
+* [Google Earth](https://www.google.co.jp/earth/) (Google LLC/ Alphabet)
+* [Googleマイマップ](https://www.google.co.jp/intl/ja/maps/about/mymaps/) (Google LLC/ Alphabet)
+
+#### ウェブ地図サービスとWebGISの違い・接点を考えてみよう
+
+###### 10
+## 考古学GISの一般的なデータモデル
+
+* ID：遺跡番号、調査地点・次数、遺構番号等
+* 名称：遺跡・遺跡群、調査区・地区、地点・トレンチ、遺構等
+* 位置：緯度経度、国土座標、住所等
+* 範囲：代表点、または範囲を区切る多角形
+* 時代：考古学的時代・時期区分、年代等
+* 種別：遺跡・遺構の種別
+* その他属性情報：遺物、その他の痕跡、理化学的分析等
 
 ---
-###### 6
-## 考古学における地域研究1
-#### 構成要素の分布とは?    
-[![太郎良2019図4-5](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019figs4-5.png)](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/Tarora2019figs4-5.png)   
+###### 11
+## 考古学GISの一般的な実装＝遺跡地図
+#### 東京都遺跡地図情報インターネット提供サービス 
+[![東京都遺跡地図](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/TokyoMETmap.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/TokyoMETmap.png)   
 
 ---
 ###### 7
