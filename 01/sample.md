@@ -30,6 +30,8 @@ layout: false
 [![講師自己紹介1](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme.png)
 [![講師自己紹介2](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)
 
+* 受講生の皆さんについて教えてください
+  - お名前・学年・専門・この授業に期待すること
 ---
 name: inverse
 layout: true
@@ -45,7 +47,7 @@ layout: false
 
 > 地理情報システム（GIS：Geographic Infor-mation System）は、地理的位置を手がかりに、位置に関する情報を持ったデータ（空間データ）を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術である。
 
-<div style="text-align: right;">[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)</div>
+<div style="text-align: right;"> [国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html) </div>
 
 >　GIS（ジー アイ エス）とは（中略）日本語では地理情報システムと訳されます。　地球上に存在する地物や事象はすべて地理情報と言えますが、これらをコンピューターの地図上に可視化して、情報の関係性、パターン、傾向をわかりやすいかたちで導き出すのが GIS の大きな役割です。
 
