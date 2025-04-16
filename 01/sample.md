@@ -3,7 +3,9 @@ layout: true
 class: center, middle, inverse
 ---
 # ガイダンス・考古地理空間情報の基礎
+
 考古学研究9 第1回目
+
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
 ---
