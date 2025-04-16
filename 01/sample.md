@@ -1,6 +1,6 @@
-name: white
+name: inverse
 layout: true
-class: center, middle, white
+class: center, middle, inverse
 ---
 # ガイダンス・考古地理空間情報の基礎
 
@@ -8,7 +8,11 @@ class: center, middle, white
 #### 第1回目
 
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
+---
 
+name: white
+layout: true
+class: center, middle, white
 ---
 ###### 0
 # 考古学研究9
@@ -36,7 +40,9 @@ layout: false
 name: inverse
 layout: true
 class: center, middle, inverse###### 2
+---
 
+###### 2
 # 早速ですが、GIS知ってますか?
 [![GISイメージ](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/GISimage01.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/GISimage01.png)
 
@@ -146,6 +152,7 @@ layout: false
 
 [![GISモデル](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)
 <div style="text-align: right;">
+  (c)Esri Japan 
   <a href="https://www.esrij.com/getting-started/what-is-gis/">Esriジャパン「GISをはじめよう　GISとは?」</a>
 </div>
 
