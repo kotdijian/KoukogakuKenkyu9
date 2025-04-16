@@ -4,15 +4,17 @@ class: center, middle, inverse
 ---
 # ガイダンス・考古地理空間情報の基礎
 
-### 考古学研究9 第1回目
+## 考古学研究9 第1回目
 
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
 ---
-###### 0
-## 考古学研究9
+layout: false
 
-### GISを利用した考古地理空間情報の解析
+###### 0
+# 考古学研究9
+
+## GISを利用した考古地理空間情報の解析
 
 考古学研究において、地理空間情報は分布や地域性などの把握に不可欠なものであり、時間（時代・年代）情報と並び重要なデータである。この授業ではGIS（地理情報システム）の利用を前提として、考古地理空間情報データの取得・作成と各種分析方法、さらに統計解析用プログラミング言語であるRを用いた空間分析の手法などを、実習を交えて学ぶ。
 
@@ -28,71 +30,100 @@ class: center, middle, inverse
 [![講師自己紹介2](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)
 
 ---
+layout: true
 ###### 2
-{: align="center"}
+
 # 早速ですが、GIS知ってますか?
+[![GISイメージ](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/GISimage01.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/GISimage01.png)
 
 ---
-**[「地域」フリー百科事典『ウィキペディア（Wikipedia）』](https://ja.wikipedia.org/wiki/%E5%9C%B0%E5%9F%9F)**    
-> 地域（ちいき、英語: region）とは、地形が似通っている、同じ性質をもっているなどの理由からひとまとめにされる土地のこと。マルチスケールの概念である。
-* 伝統的地理学：地形・地理区分を重視    
-* 近年の批判　：他とは区別できる任意の区域    
+layout: false
+###### 3
+## GISとは何か?
 
-* 「地域」の構成要素：地形・地理・地質・気象・水文・生態系・人類・**文化**    
-* 地域区分の示標    
-    
-    - **個別地域**：固有性・特定の「場所」
-    - **類型地域**：ある示標・特徴により抽出した範囲    
-    - **等質地域**：同じ特徴でまとめられる範囲
-    - **機能地域**：性格の異なる空間が機能的に結びついた範囲    
-    - **認知地域**：人間の主観によりまとめられる範囲    
+> 地理情報システム（GIS：Geographic Infor-mation System）は、地理的位置を手がかりに、位置に関する情報を持ったデータ（空間データ）を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術である。
 
+[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
+
+>　GIS（ジー アイ エス）とは（中略）日本語では地理情報システムと訳されます。　地球上に存在する地物や事象はすべて地理情報と言えますが、これらをコンピューターの地図上に可視化して、情報の関係性、パターン、傾向をわかりやすいかたちで導き出すのが GIS の大きな役割です。
+
+[Esriジャパン「GISをはじめよう　GISとは?」](https://www.esrij.com/getting-started/what-is-gis/)
+
+>　地理情報システム（中略）とは、地理情報および付加情報をコンピュータ上で作成・保存・利用・管理・表示・検索するシステムを言う。
+
+[Wikipedia日本語版「地理情報システム」](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%86%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
 ---
-###### 2
-## 考古学における地域研究：はじめに    
 
-** 考古学における「地域」の実例を考えてみよう**
+###### 4
+## GISの構成要件
 
-* 地域の示標は何か?    
+> *地理情報システム（GIS：Geographic Infor-mation System）*は、<ins>地理的位置を手がかりに、位置に関する情報を持ったデータ（空間データ）</ins>を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術である。
+> *地理空間情報*とは、<ins>空間上の特定の地点又は区域の位置を示す情報（位置情報）</ins>と<ins>それに関連付けられた様々な事象に関する情報</ins>、もしくは位置情報のみからなる情報をいう。地理空間情報には、地域における自然、災害、社会経済活動など特定のテーマについての状況を表現する土地利用図、地質図、ハザードマップ等の主題図、都市計画図、地形図、地名情報、台帳情報、統計情報、空中写真、衛星画像等の多様な情報がある。
+
+[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
+---
+
+###### 5
+## GISの構成要件：位置情報と関連情報    
 
 .left-column[
-* 考古学以外の要素が主／考古学の要素が従
+## 位置情報
+* どこにあるのか? 位置、場所、所在、範囲
+
+  → 緯度経度、地理座標、地名、住所、郵便番号、標高、区域範囲、etc.
 ]
     
 .right-column[
-* 考古学の要素が主／考古学以外の要素が従
+## 関連情報
+* なにがあるのか?　地物・地形の種類や名称
+* どのような状態なのか?
+* 付随するもの
+* 関連する他の事物・事象
 ]
     
 ---
-###### 3
-## 考古学における地域研究1
-#### 考古学の要素が主：「分布論」    
+###### 6
+## GISの機能
 
-**考古学資料の分布論**    
->型式と分布圏    
->型式は時間的にある限られた範囲に存在するととも間的領域に分布する。これを型式の分布圏と呼ぶ。 個々の型式はそれぞれの固有の分布圏を持つが， これは，その型式を作り出し，用いた一群の人々――人間集団――の活動した空間的範囲を示す証拠として重要なデータとなるものである。 (鈴木1988:67-68) 
+> *地理空間情報*は、その<ins>位置情報をキーにして異なるデータを重ね合わせる</ins>ことで、分析等の活用がなされることから、様々な主体によって整備されるデータ間で位置情報の整合がとれている必要がある。このためには、<ins>地理空間情報を空間上の位置に対応づけるための基準となる基盤地図情報</ins>の整備・更新・提供が必要である。
+> 基盤地図情報とは、地理空間情報活用推進基本法第2条第3項において（中略）定義された、電子的な地理空間情報である。地理空間情報の整備に基盤地図情報が活用されることにより、地理空間情報の相互活用が容易になる。
 
----
-###### 4
-## 考古学における地域研究1
-
-[![Suzuki1998fig1](https://raw.githubusercontent.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/type-region.png)](https://raw.githubusercontent.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/type-region.png) 
-(鈴木1988: 第11図)
-[![Tozawa1986fig1](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/pottery-lithic.png)](https://raw.github.com/kotdijian/ChiikiKoukoB-2020/master/02/figs/pottery-lithic.png)
-(戸沢1986：図1)
+[国土地理院「GISとは」](https://www.gsi.go.jp/GIS/whatisgis.html)
 
 ---
-###### 5
-## 考古学における地域研究1
-#### 考古学の要素が主：「分布論」    
+###### 7
+## GISの機能を可能にする付加的な要素
 
-**分布をみる単位は何か?**    
+.left-column[
+## キー：　データを重ね合わせるために
+* 個々のデータを区別するためのID（UID）・識別子
+* データを紐づけるための参照・関係情報
+]
+    
+.right-column[
+## 基盤地図情報
+* データ・情報の空間的位置・背景を明らかにする
+]
 
-* 遺物・遺構の形式・型式の組み合わせ・組成
+---
+###### ８
+## あらためてGISとは?
 
-* 特徴的な遺物・遺構
+.left-column[
+1. 位置情報
+2. 関連情報
+3. キー
+4. 基盤地図情報    
+]
 
-* 遺物・遺構の構成要素
+.right-column[
+**GIS＝データ+地図**
+
+データベース＝構造化されたデータが、検索、演算等利用可能な状態で格納されている
+
+それが地図と連動して、地図上で展開する＝GIS
+
+[![GISモデル](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/EsriGISmodel.png)
 
 ---
 ###### 6
