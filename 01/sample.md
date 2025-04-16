@@ -150,7 +150,7 @@ layout: false
   (c)Esri Japan 
   <a href="https://www.esrij.com/getting-started/what-is-gis/">Esriジャパン「GISをはじめよう　GISとは?」</a>
 </div>
-
+]
 
 ---
 ###### 9
