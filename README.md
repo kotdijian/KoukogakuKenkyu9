@@ -1,10 +1,10 @@
 ## 文学学術院「考古学研究9」2025〜
-早稲田大学文学学術院「考古学研究9」のGitHubページです。リポジトリは[こちら](https://github.com/kotdijian/KoukogakuKenkyu9)\
+早稲田大学文学学術院「考古学研究9」のGitHubページです。リポジトリは[こちら](https://github.com/kotdijian/KoukogakuKenkyu9)
 
 ***
 ### 0.シラバス    
 **講義内容は変更になる場合があります**
-1. 第1回　ガイダンス、考古地理空間情報の基礎
+1. [第1回　ガイダンス、考古地理空間情報の基礎]:(https://kotdijian.github.io/KoukogakuKenkyu9/01/)
    
 2. 第2回　整然データ、データベース、データリポジトリ（Github）
    
