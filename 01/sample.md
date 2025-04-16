@@ -30,7 +30,6 @@ layout: false
 [![講師自己紹介2](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)
 
 ---
-layout: true
 ###### 2
 
 # 早速ですが、GIS知ってますか?
