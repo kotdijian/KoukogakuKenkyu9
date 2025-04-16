@@ -30,11 +30,13 @@ layout: false
 [![講師自己紹介2](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/01/figs/Aboutme2.png)
 
 ---
+layout: true
 ###### 2
-{: align="center"}
+
 # 早速ですが、GIS知ってますか?
 
 ---
+layout: false
 **[「地域」フリー百科事典『ウィキペディア（Wikipedia）』](https://ja.wikipedia.org/wiki/%E5%9C%B0%E5%9F%9F)**    
 > 地域（ちいき、英語: region）とは、地形が似通っている、同じ性質をもっているなどの理由からひとまとめにされる土地のこと。マルチスケールの概念である。
 * 伝統的地理学：地形・地理区分を重視    
