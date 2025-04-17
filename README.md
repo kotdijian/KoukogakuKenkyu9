@@ -1,5 +1,6 @@
 ## 文学学術院「考古学研究9」2025〜
 早稲田大学文学学術院「考古学研究9」のGitHubページです。リポジトリは[こちら](https://github.com/kotdijian/KoukogakuKenkyu9)
+
 本ページへのリンク：https://kotdijian.github.io/KoukogakuKenkyu9/
 
 ***
