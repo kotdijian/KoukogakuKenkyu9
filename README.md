@@ -3,6 +3,9 @@
 
 本ページへのリンク：https://kotdijian.github.io/KoukogakuKenkyu9/
 
+[![QRコード](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/QR.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/QR.png)
+
+
 ***
 ### 0.シラバス    
 **講義内容は変更になる場合があります**
