@@ -11,7 +11,7 @@
 **講義内容は変更になる場合があります**
 1. [第1回　ガイダンス、考古地理空間情報の基礎](https://kotdijian.github.io/KoukogakuKenkyu9/01/)
    
-2. 第2回　整然データ、データベース、データリポジトリ（Github）
+2. [第2回　整然データ、データベース、データリポジトリ（Github）](https://kotdijian.github.io/KoukogakuKenkyu9/02/)
    
 3. 第3回　WebGISの利用（地理院地図、ひなたGIS）　**オンライン予定**
 
