@@ -50,6 +50,6 @@ layout: false
 
 ###### 4
 # GitHub Desktopのインストール
-* [公式ドキュメント]（https://docs.github.com/ja/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop）
+* [公式ドキュメント](https://docs.github.com/ja/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 * [GitHub Desktopの使い方](https://qiita.com/yasu_qita/items/3a24322f0ebdd443ba7e)
 
