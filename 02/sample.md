@@ -24,14 +24,14 @@ layout: false
 
 ---
 
-###### 1
+###### 2
 # GitHubリポジトリの実際を見てみよう
 * [本授業の公開リポジトリ](https://github.com/kotdijian/KoukogakuKenkyu9)
 * [リポジトリをWebページにできます](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
 ---
 
-###### 2
+###### 3
 # GitHubアカウントの取得
 
 * [公式ドキュメント](https://docs.github.com/ja/get-started/start-your-journey/creating-an-account-on-github)
@@ -39,7 +39,7 @@ layout: false
 
 ---
 
-###### 3
+###### 4
 # GitHubリポジトリの作成
 * [公式ドキュメント](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-new-repository)
 * "test"または任意の名前で新しいリポジトリを作成してください
@@ -48,7 +48,7 @@ layout: false
 
 ---
 
-###### 4
+###### 5
 # GitHub Desktopのインストール
 * [公式ドキュメント](https://docs.github.com/ja/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 * [GitHub Desktopの使い方](https://qiita.com/yasu_qita/items/3a24322f0ebdd443ba7e)

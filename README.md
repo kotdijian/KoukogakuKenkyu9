@@ -13,7 +13,7 @@
    
 2. [第2回　整然データ、データベース、データリポジトリ（Github）](https://kotdijian.github.io/KoukogakuKenkyu9/02/)
    
-3. 第3回　WebGISの利用（地理院地図、ひなたGIS）　**オンライン予定**
+3. [第3回　WebGISの利用（地理院地図、ひなたGIS）](https://kotdijian.github.io/KoukogakuKenkyu9/03/)　**オンライン予定**
 
 4. 第4回　地理空間データの検索・取得・作成・調整実習　**オンライン予定**
 
