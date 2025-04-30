@@ -147,7 +147,15 @@ layout: false
 
 ###### .kml
 ``` <Placemark>
-<description><![CDATA[ <table><tr><td>JASID</td><td>13101000100</td></tr><tr><td>自治体コード</td><td>13101</td></tr><tr><td>遺跡番号</td><td>1</td></tr><tr><td>ふりがな</td><td>えどじょうあと</td></tr><tr><td>遺跡名</td><td>江戸城跡</td></tr><tr><td>所在地</td><td>千代田区 千代田　 皇居外苑　 北の丸公園</td></tr><tr><td>時代</td><td>[近世]</td></tr><tr><td>種別</td><td>城館</td></tr><tr><td>主な遺構/概要</td><td>[近世]建物礎石　敷石遺構　囲状遺構　土留遺構　石組溝　暗渠　城門　城橋　天守台　櫓堀　石塁　石垣　地下室　井戸　上下水道</td></tr><tr><td>主な出土品</td><td>縄文土器　弥生土器　土師器　陶磁器　瓦　金属製品　木製品　鉄釘　火箸　簪　笄　チャコ　銭貨</td></tr><tr><td>経度</td><td>139.757489</td></tr><tr><td>緯度</td><td>35.68619003</td></tr></table> ]]></description>
+<description><![CDATA[ <table><tr><td>JASID</td><td>13101000100</td></tr>
+<tr><td>自治体コード</td><td>13101</td></tr><tr><td>遺跡番号</td><td>1</td></tr>
+<tr><td>ふりがな</td><td>えどじょうあと</td></tr><tr><td>遺跡名</td><td>江戸城跡</td></tr>
+<tr><td>所在地</td><td>千代田区 千代田　 皇居外苑　 北の丸公園</td></tr>
+<tr><td>時代</td><td>[近世]</td></tr><tr><td>種別</td><td>城館</td></tr>
+<tr><td>主な遺構/概要</td><td>[近世]建物礎石　敷石遺構　囲状遺構　土留遺構　石組溝　暗渠　城門　城橋　天守台　櫓堀　石塁　石垣　地下室　井戸　上下水道</td></tr>
+<tr><td>主な出土品</td><td>縄文土器　弥生土器　土師器　陶磁器　瓦　金属製品　木製品　鉄釘　火箸　簪　笄　チャコ　銭貨</td></tr>
+<tr><td>経度</td><td>139.757489</td></tr><tr><td>緯度</td><td>35.68619003</td></tr>
+</table> ]]></description>
 <styleUrl>#PolyStyle1</styleUrl>
 <Point>
 <coordinates>139.757489,35.68619003</coordinates>
