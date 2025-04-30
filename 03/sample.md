@@ -51,17 +51,19 @@ layout: false
 
 ---
 
-###### 3
-# GitHubリポジトリの作成
-* [公式ドキュメント](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-new-repository)
-* "test"または任意の名前で新しいリポジトリを作成してください
-* リポジトリの名称は基本的に半角英数字のみ
-* 公開リポジトリとして運用する場合は個人情報・機微情報を掲載しないこと
+###### 4
+# 地理院地図
+* 「地形図、写真、標高、地形分類、災害情報など、日本の国土の様子を発信するウェブ地図です。地形図や写真の3D表示も可能。」
+* 2013年に運用開始
+* 多彩な地図を利用できる
+* 画像やPDFに出力できる
+* 自分自身でデータを作成、保存できる
 
 ---
 
-###### 4
-# GitHub Desktopのインストール
-* [公式ドキュメント](https://docs.github.com/ja/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
-* [GitHub Desktopの使い方](https://qiita.com/yasu_qita/items/3a24322f0ebdd443ba7e)
+###### 5
+# 地理院地図を操作してみよう
+#### [地理院地図](https://maps.gsi.go.jp) の画面構成と機能
+
+#### 自分のデータを読み込む
 
