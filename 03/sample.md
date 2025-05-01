@@ -168,6 +168,7 @@ layout: false
 * データ書き出しが.geojsonと.kmlのみ
 
 ** >>　地理院地図外での再編集・操作が困難**
+]
 
 ---
 
@@ -186,4 +187,9 @@ layout: false
 * 英数字はユニコード（Unicode）という統一的なエンコードが整備されている（現在主流はUTF-8）
 * Microsoft OSは独自のエンコードを使ってきた。日本語環境はシフトJIS（CP932）
 
+
 ---
+
+###### 12
+### [ひなたGIS](https://hgis.pref.miyazaki.lg.jp/hinata/)を使ってみよう
+*
