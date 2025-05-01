@@ -97,7 +97,8 @@ layout: false
 ### データ形式の比較
 ###### .csv
 ``` "JASID","自治体コード","遺跡番号",,"経度","緯度",
-    13101000100,13101,"1",139.757489,35.68619003 ```
+    13101000100,13101,"1",139.757489,35.68619003
+```
 
 
 ###### .geojson
@@ -109,7 +110,8 @@ layout: false
                      "_markerType": "Icon",
                      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
                      "_iconSize": [10, 10], "_iconAnchor": [5, 5]}
-       } ```
+       }
+```
 
 
 ###### .kml
