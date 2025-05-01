@@ -208,6 +208,7 @@ layout: false
 .left-column[
 ### 地理院地図は地図作成と出力に適した機能が多い
 ]
+
 .right-column[
 ### ひなたGISはデータの外部書き出しと編集に便利
 ]
