@@ -96,13 +96,17 @@ layout: false
 ###### 7
 ### データ形式の比較
 ###### .csv
-```  "JASID","自治体コード","遺跡番号",,"経度","緯度",
-     13101000100,13101,"1",139.757489,35.68619003
+
+```
+"JASID","自治体コード","遺跡番号",,"経度","緯度",
+13101000100,13101,"1",139.757489,35.68619003
 ```
 
 
 ###### .geojson
-``` {"type": "FeatureCollection","features": [
+
+```
+{"type": "FeatureCollection","features": [
      {"type": "Feature","geometry":
        {"type": "Point","coordinates": [139.757489, 35.68619]},
       "properties": {"JASID": "13101000100", "自治体コード": "13101", "遺跡番号": "1",
@@ -115,7 +119,8 @@ layout: false
 
 
 ###### .kml
-``` <Placemark>
+```
+<Placemark>
 <description><![CDATA[ <table><tr><td>JASID</td><td>13101000100</td></tr>
 <tr><td>自治体コード</td><td>13101</td></tr><tr><td>遺跡番号</td><td>1</td></tr>
 <tr><td>経度</td><td>139.757489</td></tr><tr><td>緯度</td><td>35.68619003</td></tr>
