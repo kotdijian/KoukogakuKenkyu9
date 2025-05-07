@@ -13,20 +13,18 @@ class: center, middle, white
 layout: false
 
 ###### 1
-## ちょっと寄り道
-
-### 4/29〜5/7（日本時間5/8）の旅程と要務
-* ![map](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/map.png)
+#### ちょっと寄り道：4/29〜5/7（日本時間5/8）の旅程と要務
+![map](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/map.png)
 
 
 ---
 
 ###### 2
-### リポジトリのフォークを試してみよう
-* [JASOSR:日本考古のための空間データ基盤（公開リポジトリ）](https://github.com/kotdijian/JASOSR)
-* リポジトリの概要欄の上にある"folk"をクリックして自分のアカウントにフォークする
-* 自分のアカウントにJASOSRリポジトリが生成されたのを確認したら、Github Desktopでローカルにクローンする
-* 当面は"13Tokyo"だけを使うので他のフォルダは削除してもOK
+#### 文化庁文化遺産国際協力拠点交流事業（公立小松大学）
+* ホンジュラス・コパン、グアテマラ・ティカルで現地スタッフに3D計測の講習
+![tikal](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6303.JPEG)
+![tikal](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6314.JPEG)
+
 
 ---
 
