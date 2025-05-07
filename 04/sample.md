@@ -2,26 +2,22 @@ name: white
 layout: true
 class: center, middle, white
 ---
-# WebGISの利用
+# 第4回：地理空間データの検索・取得・作成・調整実習
 # （地理院地図、ひなたGIS）
 
 ## 考古学研究9
-#### 第3回目(2025/5/1)
+#### 第4回目(2025/5/8)
 
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 ---
 layout: false
 
 ###### 1
-# GitHubの使い方
+## ちょっと寄り道
 
-### リポジトリのフォーク
-* [公式ドキュメント](https://ja.wikipedia.org/wiki/GitHub)
+### 4/29〜5/7（日本時間5/8）の旅程と要務
+* ![map](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/map.png)
 
-* 自分のものではない、第三者の公開リポジトリをローカルにクローンすることができる
-* しかし変更をコミットすると大元のリポジトリに反映されてしまう
-* 自分だけの作業用のリポジトリとしたい時はFolk（フォーク）を使う
-* 大元のリポジトリに統合（Merge: マージ）することもできる
 
 ---
 
