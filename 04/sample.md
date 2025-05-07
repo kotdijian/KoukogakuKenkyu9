@@ -13,7 +13,7 @@ layout: false
 
 ###### 1
 #### ちょっと寄り道：4/29〜5/7（日本時間5/8）の旅程と要務
-<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/map.png" width="50%">
+<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/map.png" width="100%">
 
 
 ---
@@ -31,13 +31,13 @@ layout: false
 ---
 
 ###### 3
-<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6303.JPEG" width="50%">
+<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6303.JPEG" width="100%">
 
 
 ---
 
 ###### 4
-<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6314.JPEG" width="50%">
+<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6314.JPEG" width="100%">
 
 
 ---
@@ -45,17 +45,18 @@ layout: false
 ###### 5
 ### 自分自身の考古地理情報データセットを準備しよう
 * データセットの要件：位置情報（住所 or 座標）＋属性情報
-* 同じ列に同じ内容　*属性情報も!*
-* .csvファイルの場合、最初の行は *見出し*
+* 同じ列に同じ内容　**属性情報も!**
+* .csvファイルの場合、最初の行は **見出し**
 * = 見出し行と同じ位置（列）に同じ内容の情報が入っていること。ずれていると問題
 
 #### 地理院地図
 * 住所または座標情報を自動検出。間違っている場合は修正
-* 編集後の書き出しは　*.csvは不可*
+* 編集後の書き出しは　**.csvは不可**
 
 #### ひなたGIS
 * 位置情報は自動検出のみ、列名を「緯度」「経度」に
-* 位置情報が空白の行があると読み込みが停止します
+* 位置情報が空白の行があると **読み込みが停止します**
+* 編集後のデータは.csv書き出しが可能
 
 ---
 
