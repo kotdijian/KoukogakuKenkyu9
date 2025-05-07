@@ -13,7 +13,7 @@ layout: false
 
 ###### 1
 #### ちょっと寄り道：4/29〜5/7（日本時間5/8）の旅程と要務
-![map](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/map.png)
+<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/map.png" width="50%">
 
 
 ---
@@ -31,13 +31,13 @@ layout: false
 ---
 
 ###### 3
-![tikal](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6303.JPEG)
+<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6303.JPEG" width="50%">
 
 
 ---
 
 ###### 4
-![tikal](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6314.JPEG)
+!<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6314.JPEG" width="50%">
 
 
 ---
