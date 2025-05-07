@@ -22,13 +22,28 @@ layout: false
 ###### 2
 #### 文化庁文化遺産国際協力拠点交流事業（公立小松大学）
 * ホンジュラス・コパン、グアテマラ・ティカルで現地スタッフに3D計測の講習
+* iPadによるLiDARスキャン、Metashapeによるフォトグラメトリ
+* CloudCompareを利用したデータ加工
+* ハンディスキャナー（Einstar）の実演（グアテマラ人大学院生）
+* UnrealEngineを利用したVRコンテンツの解説（グアテマラ人大学院生）
+* *2020年から5年目（1期2年の3期目）*
+* 講習と実習から、現地スタッフ内に「指導者」を育てるフェーズ
+
+---
+
+###### 3
 ![tikal](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6303.JPEG)
+
+
+---
+
+###### 4
 ![tikal](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6314.JPEG)
 
 
 ---
 
-###### 3
+###### 6
 ### フォークしたリポジトリで作業してみよう
 * "13Tokyo"フォルダには、[東京都遺跡地図情報インターネット提供サービス](https://tokyo-iseki.metro.tokyo.lg.jp/)から作成した東京都遺跡一覧データがあります（島嶼部除く）
 * 基本的な内容：JASID+自治体コード+東京都遺跡地図収録8項目（遺跡番号、ふりがな、遺跡名、所在地、時代、種別、主な遺構／概要、主な出土品）+位置座標
