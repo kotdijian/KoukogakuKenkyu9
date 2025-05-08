@@ -29,14 +29,10 @@ layout: false
 * 講習と実習から、現地スタッフ内に「指導者」を育てるフェーズ
 
 ---
-
-###### 3
 <img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6303.JPEG" width="100%">
 
 
 ---
-
-###### 4
 <img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6314.JPEG" width="100%">
 
 
@@ -100,6 +96,17 @@ layout: false
 ---
 
 ###### 9
+### 縮尺について
+* Web地図やGISは可変ズームなので従来のような「縮尺」の概念がありません
+* 代わりに「ズームレベル」で縮尺を考えます（ [国土地理院「地理院タイルについて」](https://maps.gsi.go.jp/development/siyou.html) ）
+
+
+* [「縮尺の目安」](https://qiita.com/hfu/items/7b21db76ee8379682a6c)
+
+
+---
+
+###### 10
 ### 課題の提出方法
 1. Waseda Moodle のアンケートにテーマ、使用データ、公開の可否を入力
 2. リポジトリ公開する場合はURLをメール
