@@ -27,7 +27,7 @@
 
 9. [第9回　QGISを用いた作図・デジタルトレース実習](https://github.com/kotdijian/KoukogakuKenkyu9/tree/a635d5b706a3b3f6d5e6a58843fd8dbeb85ccede/09)
 
-10. 第10回　統計解析用プログラミング言語Rについて
+10. [第10回　統計解析用プログラミング言語Rについて](https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/10)
 
 11. 第11回　Rによる地理空間情報処理実習
 
