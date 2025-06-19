@@ -1,10 +1,10 @@
 ---
-title: "JAS_DataManagementFor13Tokyo-20201017ver"
+title: "JAS_DataManagementFor13Tokyo-20250619ver"
 author: "kotdijian"
-date: "2020年10月17日"
+date: "2025年6月19日"
 output:
-  html_document: default
   word_document: default
+  html_document: default
 documentclass: bxjsarticle
 classoption: xelatex,ja=standard
 geometry: no
@@ -23,10 +23,12 @@ Sys.setlocale("LC_ALL","Japanese") #Windowsにおけるエンコード問題解�
 
 ## 0.はじめに
 
+### 概要
+
 これは、[考古学・文化財のためのデータサイエンス・サロンオンライン#03オープンリソースによる遺跡地図作成実習part2](https://3dlm.peatix.com/)の教材資料として作成されたRマークダウン・ドキュメントを、2025年度早稲田大学文学学術院「考古学研究9」の授業用に改変したものです。
--
+
 [Rマークダウンとは?](https://kazutan.github.io/kazutanR/Rmd_intro.html)  
--
+
 [RStudio公式によるRマークダウンチートシート](https://rstudio.com/wp-content/uploads/2016/11/Rmarkdown-cheatsheet-2.0_ja.pdf)
 
 実習では、[東京都遺跡地図情報インターネット提供サービス](https://tokyo-iseki.metro.tokyo.lg.jp/)の収録情報を[リスト化したもの](https://github.com/kotdijian/JASOSR/tree/master/13Tokyo)を整理・加工するためのコードを通じて、Rによるデータ操作を学びます。
@@ -645,35 +647,35 @@ write.csv(Tokyo.unknown, "13Tokyo_unknown.csv", row.names=FALSE, fileEncoding = 
 次のチャンクでは、**tidyr**パッケージの`drop_na()`関数を用いて、**経度**が空白のデータを削除したものを保存します。**ひなたGIS**用に**Shift-JIS**で保存しますが、Rでの**Shift-JIS**のエンコーディングの指定は`CP932`になりますので注意してください。
 
 ```{r chunk17, eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE}
-TokyoTotal.coord <- drop_na(TokyoTotal,経度) #経度NAのレコードを除外して新しいオブジェクトに格納
+TokyoTotal.coord <- drop_na(TokyoTotal,Lon) #経度NAのレコードを除外して新しいオブジェクトに格納
 write.csv(TokyoTotal.coord, "13Tokyo_totalCoordSJS.csv", row.names = FALSE, fileEncoding = "CP932")　#Shift-JIS書き出し, ファイル名を適宜指定(全レコード)
 
 #時代別データ書き出し
-Tokyo.palaeolithic <- drop_na(Tokyo.palaeolithic,経度)
+Tokyo.palaeolithic <- drop_na(Tokyo.palaeolithic,Lon)
 write.csv(Tokyo.palaeolithic, "13Tokyo_palaeolithicSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
-Tokyo.jomon <- drop_na(Tokyo.jomon,経度)
+Tokyo.jomon <- drop_na(Tokyo.jomon,Lon)
 write.csv(Tokyo.jomon, "13Tokyo_jomonSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
-Tokyo.yayoi<- drop_na(Tokyo.yayoi,経度)
+Tokyo.yayoi<- drop_na(Tokyo.yayoi,Lon)
 write.csv(Tokyo.yayoi, "13Tokyo_yayoiSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
-Tokyo.kofun <- drop_na(Tokyo.kofun,経度)
+Tokyo.kofun <- drop_na(Tokyo.kofun,Lon)
 write.csv(Tokyo.kofun, "13Tokyo_kofunSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
-Tokyo.nara <- drop_na(Tokyo.nara,経度)
+Tokyo.nara <- drop_na(Tokyo.nara,Lon)
 write.csv(Tokyo.nara, "13Tokyo_naraSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
-Tokyo.heian <- drop_na(Tokyo.heian,経度)
+Tokyo.heian <- drop_na(Tokyo.heian,Lon)
 write.csv(Tokyo.heian, "13Tokyo_heianSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
-Tokyo.medieval <- drop_na(Tokyo.medieval,経度)
+Tokyo.medieval <- drop_na(Tokyo.medieval,Lon)
 write.csv(Tokyo.medieval, "13Tokyo_medievalSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
-Tokyo.earlymodern <- drop_na(Tokyo.earlymodern,経度)
+Tokyo.earlymodern <- drop_na(Tokyo.earlymodern,Lon)
 write.csv(Tokyo.earlymodern, "13Tokyo_earlymodernSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
-Tokyo.unknown <- drop_na(Tokyo.unknown,経度)
+Tokyo.unknown <- drop_na(Tokyo.unknown,Lon)
 write.csv(Tokyo.unknown, "13Tokyo_unknownSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
 ```
@@ -970,32 +972,32 @@ write.csv(Tokyo.summary1, "13TokyoSummary1.csv", row.names = FALSE, fileEncoding
 ```{r chunk28, eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE}
 #遺跡・遺構種別データ書き出し
 Tokyo.Jkaizuka <- Tokyo.Jkaizuka %>%
-                          drop_na(経度) %>%
+                          drop_na(Lon) %>%
                           mutate(色 = "blue")
 write.csv(Tokyo.Jkaizuka, "13Tokyo_kaizukaSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
 Tokyo.Yshukoubo <- Tokyo.Yshukoubo %>%
-                          drop_na(経度) %>%
+                          drop_na(Lon) %>%
                           mutate(色 = "orange")
 write.csv(Tokyo.Yshukoubo, "13Tokyo_shukoboSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
 Tokyo.Kkofun<- Tokyo.Kkofun %>%
-                          drop_na(経度) %>%
+                          drop_na(Lon) %>%
                           mutate(色 = "green")
 write.csv(Tokyo.Kkofun, "13Tokyo_kofunSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
 Tokyo.Kyokoana <- Tokyo.Kyokoana %>%
-                          drop_na(経度) %>%
+                          drop_na(Lon) %>%
                           mutate(色 = "brown")
 write.csv(Tokyo.Kyokoana, "13Tokyo_yokoanaSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
 Tokyo.Mjokan <- Tokyo.Mjokan %>%
-                          drop_na(経度) %>%
+                          drop_na(Lon) %>%
                           mutate(色 = "red")
 write.csv(Tokyo.Mjokan, "13Tokyo_jokanSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
 Tokyo.Mtsuka <- Tokyo.Mtsuka %>%
-                          drop_na(経度) %>%
+                          drop_na(Lon) %>%
                           mutate(色 = "purple")
 write.csv(Tokyo.Mtsuka, "13Tokyo_tsukaSJS.csv", row.names=FALSE, fileEncoding = "CP932")
 
