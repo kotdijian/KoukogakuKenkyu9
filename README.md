@@ -29,9 +29,9 @@
 
 10. [第10回　統計解析用プログラミング言語Rについて](https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/10)
 
-11. 第11回　Rによる地理空間情報処理実習
+11. [第11回　地理空間情報分析計画](https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/11)
 
-12. 第12回　地理空間情報分析計画
+12. 第12回　地理空間情報分析実習
 
 13. 第13回　地理空間情報分析実習
 
