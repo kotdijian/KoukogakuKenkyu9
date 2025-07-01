@@ -78,7 +78,7 @@ Which would you like to update?
 > 4: utf8     (1.2.5 -> 1.2.6) [CRAN]
 > 5: evaluate (1.0.3 -> 1.0.4) [CRAN]
 > 6: tibble   (3.2.1 -> 3.3.0) [CRAN]
->7: curl     (6.2.2 -> 6.3.0) [CRAN]
+> 7: curl     (6.2.2 -> 6.3.0) [CRAN]
 
 ```{r chunk1, eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE}
 # CRANにないパッケージインストールのためのremotesパッケージのインストール
@@ -243,9 +243,13 @@ tokyo.pts <- Tokyo.summary %>%
              dplyr::select(-pref_code, -prefecture)
 tokyo.coord <- st_coordinates(tokyo.pts)                        #行列データからX,Y座標を抽出
 tokyo.pts <- cbind(tokyo.pts, tokyo.coord)                      #抽出したX,Y座標と元データを結合
-# rm(tokyo.coord)
+rm(tokyo.coord)
 
 #地図描画
+# library("scales")
+# theme_set(theme_gray(base_family = "HiraKakuPro-W3")) # セッション中のプロットエリアの文字化けを防止
+
+data %>%
 ggplot()+
   geom_sf(data = Tokyo.summary,
           aes(fill = cut_number(Sum, n = 8))) + #遺跡数合計で色分け
@@ -688,7 +692,7 @@ leaflet() %>%
 
 ```{r chunk24, eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE}
 #対象遺跡の指定とデータの抽出
-focal.site <- filter(Tokyo.sf,  SiteName_original == "野川遺跡")
+focal.site <- filter(Tokyo.sf,  SiteName_original == "下戸塚遺跡")
 coord <- st_coordinates(focal.site)    #座標の抽出
 focal.site <- cbind(focal.site, coord) #抽出した座標をデータに連結
 
