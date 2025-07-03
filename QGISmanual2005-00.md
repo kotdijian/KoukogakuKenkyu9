@@ -86,7 +86,7 @@
 
 #### 【応用編】 DEMデータの表示を変える
 - 陰影図：標高データの場合「バンド1」を選択、照射される光線の高度・方位角を指定、「Z係数」（標高の倍率）を指定
-![Hillshade](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/HillshadeSample.png)   
+![Hillshade](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/Hillshade.png)   
 
 - 等高線：標高データの場合「バンド1」を選択、「等高線（基準等高線）の間隔」（＝等高線の標高値）を指定
 ![Contour](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/Contour.png)   
@@ -195,3 +195,4 @@
 
 ----
 #### 6.ポイントデータの解析2
+- ヒートマップ：レイヤの「シンボロジ」>ヒートマップを選択、半径は画面表示上のサイズなのでズームにより密度分布の計算範囲が変わる
