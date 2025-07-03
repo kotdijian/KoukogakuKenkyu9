@@ -170,3 +170,11 @@
 - ポリゴン内の点の数：「ポリゴン」で指定したレイヤのポリゴン範囲内に含まれる「ポイント」で指定したレイヤのポイントの数をカウントして、ポリゴンの属性に追加する
 - （例：埼玉県地形分類ポリゴンで遺跡数を集計する）
   ![PointCount](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/PointCount.png)
+
+#### 応用編
+1. 埼玉県中世遺跡のCSVをポイントレイヤとして読み込み
+2. レイヤを複製 > 'SiteType' LIKE "%城%" でフィルタリング（城跡・城館が抽出される）
+3. 城・城館ポイントでボロノイ分割
+  ![PointCount](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/VoronoiPoint.png)
+5. 分割されたエリアに含まれるポイント数をカウント
+  ![PointCount](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/VoronoiPointNum.png) 
