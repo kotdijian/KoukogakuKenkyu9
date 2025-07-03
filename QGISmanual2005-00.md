@@ -1,4 +1,4 @@
----
+<img width="1093" alt="image" src="https://github.com/user-attachments/assets/654cd9ac-3c29-41f9-a916-23eb95b2b42b" />---
 # 考古地理空間情報分析のためのQGIS操作マニュアル
 #### ver.2025.00
  - 本マニュアルはQGIS 3.40 に準拠しています
@@ -86,8 +86,11 @@
 3. 単バンド擬似カラーでカラーランプを選択、編集する
 
 #### 【応用編】 DEMデータの表示を変える
-- 傾斜量
-- 等高線
+- 陰影図：標高データの場合「バンド1」を選択、照射される光線の高度・方位角を指定、「Z係数」（標高の倍率）を指定
+![Hillshade](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/Hillshade.png)   
+
+- 等高線：標高データの場合「バンド1」を選択、「等高線（基準等高線）の間隔」（＝等高線の標高値）を指定
+![Contour](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/Contour.png)   
 
 ---
 ### 3. 地図の表示2： ベクターデータ
@@ -117,7 +120,7 @@
 2. グリッドタイプ：ポイント、ライン、ポリゴン（長方形・菱形・六角形）
 3. グリッドの範囲：座標で直接指定 or 「現在のキャンパス領域に設定」ボタンで表示範囲を指定
 4. 水平方向／垂直方向の間隔：数値で指定。CRSが平面直角座標ならメートル、地理座標なら「度」
-![Grid](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/SampleGrid.png)   
+![Grid](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/GridSample.png)   
 
 ---
 ### 4. ベクタデータの編集操作
