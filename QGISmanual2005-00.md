@@ -1,9 +1,9 @@
 ---
 # 考古地理空間情報分析のためのQGIS操作マニュアル
 #### Ver.2025-00
-本マニュアルはQGIS3.40に準拠しています
-QGISは2025年10月に4.0へのメジャーアップデートが予定されていますがメニューや操作方法に大きな変化はないとのことです
-【参考】[MIERUNE QGISLAB](https://qgis.mierune.co.jp/posts/blog_qgis-4-0_qt6)
+- 本マニュアルはQGIS3.40に準拠しています
+- QGISは2025年10月に4.0へのメジャーアップデートが予定されていますがメニューや操作方法に大きな変化はないとのことです
+- 【参考】[MIERUNE QGISLAB](https://qgis.mierune.co.jp/posts/blog_qgis-4-0_qt6)
 
 [2025年度授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
@@ -101,6 +101,8 @@ QGISは2025年10月に4.0へのメジャーアップデートが予定されて�
       - 「カテゴリ値による定義」を選択、色分けしたい属性テーブルの項目を値(Value)に設定
       - カラーランプを選択（任意）→「分類」をクリック
 
+#### グリッドを作成する
+
 ---
 ### 3. ベクタデータの編集操作
 
@@ -132,11 +134,11 @@ QGISは2025年10月に4.0へのメジャーアップデートが予定されて�
 - バッファ：入力レイヤの地物（ポイントやライン、ポリゴン）の周囲を指定した距離で取り囲むバッファ（余地）を作成する
 - 切り抜く：入力レイヤの地物の形状で、オーバーレイレイヤの地物の形状を切り抜く（重なる範囲だけが取り出される）
   （例：埼玉県地形分類ポリゴンを行政界（川越市でフィルタ）で切り抜く）
-![Clip](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/12/VectorClip.png)
+![Clip](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/VectorClip.png)
 - 突包：入力レイヤの地物の最外周をつなぐラインポリゴンを作成する。ポイントの場合、最外周に位置するポイントをつなぐ
 - 差分：入力レイヤの地物の形状で、オーバーレイレイヤの地物の形状を切り抜く（重ならない範囲が取り出される）
   （例：埼玉県地形分類ポリゴンと行政界（川越市でフィルタ）の差分）
-  ![Defference](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/12/VectoreDef.png)
+  ![Defference](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/VectoreDef.png)
 - 交差：入力レイヤの地物の形状で、オーバーレイレイヤの地物の形状を切り抜き、2つのレイヤの属性を保持した新しい地物を作成する（重なる範囲）
 - 対称差：入力レイヤとオーバーレイレイヤの地物の重ならない部分が取り出される。それぞれのレイヤの属性が保持される
 - 和集合：入力レイヤとオーバーレイやの地物がそれぞれ、重なる部分と重ならない部分に分割される
@@ -148,19 +150,19 @@ QGISは2025年10月に4.0へのメジャーアップデートが予定されて�
 #### ジオメトリツール： 「ベクター」 > 「ジオメトリツール」
 - 重心：入力レイヤの地物の座標重心をポイントとして出力する。複数の地物がある場合はそれぞれの重心を出力する（例：行政界データを選択すると各区市町村の重心が出力される）
   （例：埼玉県行政界の市町村ポリゴンの重心）
-  ![VectorCentroid](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/12/VectorCentroid.png)
+  ![VectorCentroid](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/VectorCentroid.png)
 - ドロネー三角形分割（三角形網）：ポイントデータから不規則三角形網を作成する。三角形は各ポイントを結ぶ相互に交差しない線分で構成される。空間分割やネットワークの可視化
   （例：埼玉県行政界の市町村ポリゴンの重心にもとづくドロネー三角形網）
-  ![PointDelauney](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/12/PointDelauney.png)
+  ![PointDelauney](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/PointDelauney.png)
 - Voronoi Polygons（ボロノイ分割）：各ポイントから等距離の線分で空間を分割する
   （例：埼玉県行政界の市町村ポリゴンの重心にもとづくボロノイ分割）
-  ![PointBoronoi](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/12/PointVoronoi.png)
+  ![PointBoronoi](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/PointVoronoi.png)
   **ドロネー三角形はポイントを頂点とする <> ボロノイ分割はポイントを中心とする**
   
 - **応用編** 埼玉県行政界の市町村ポリゴンの重心にもとづくボロノイ分割 > Buffer region=50 > 埼玉県行政界（県界）ポリゴンで切り抜き
-  ![VoronoiBufferClip](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/12/VoronoiBufferClip.png)
+  ![VoronoiBufferClip](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/VoronoiBufferClip.png)
 
 #### 解析ツール：「ベクター」 > 「解析ツール」
 - ポリゴン内の点の数：「ポリゴン」で指定したレイヤのポリゴン範囲内に含まれる「ポイント」で指定したレイヤのポイントの数をカウントして、ポリゴンの属性に追加する
 - （例：埼玉県地形分類ポリゴンで遺跡数を集計する）
-  ![PointCount](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/12/PointCount.png)
+  ![PointCount](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/Figures/PointCount.png)
