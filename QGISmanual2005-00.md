@@ -1,10 +1,11 @@
 ---
-## 考古学研究9
-#### 第7回目(2025/5/28)
+# 考古地理空間情報分析のためのQGIS操作マニュアル
+#### Ver.2025-00
+**本マニュアルはQGIS3.40に準拠しています**
+QGISは2025年10月に4.0へのメジャーアップデートが予定されていますがメニューや操作方法に大きな変化はないとのことです
+> [MIERUNE QGISLAB](https://qgis.mierune.co.jp/posts/blog_qgis-4-0_qt6)
 
-# 第7回：QGISを用いた地理空間情報分析実習2
-
-[授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
+[2025年度授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
 
 ### 1.基本設定
