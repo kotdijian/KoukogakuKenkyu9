@@ -5,8 +5,10 @@
 - QGISは2025年10月に4.0へのメジャーアップデートが予定されていますがメニューや操作方法に大きな変化はないとのことです
   * 【参考】[MIERUNE QGISLAB](https://qgis.mierune.co.jp/posts/blog_qgis-4-0_qt6)
 
+
 [2025年度授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
+---
 
 ### 1.基本設定
 #### QGISのセットアップ
