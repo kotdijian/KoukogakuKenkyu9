@@ -3,6 +3,8 @@
 
 本ページへのリンク：https://kotdijian.github.io/KoukogakuKenkyu9/
 
+2025年度版クイックマニュアル：https://kotdijian.github.io/KoukogakuKenkyu9/
+
 [![QRコード](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/QR.png)](https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/QR.png)
 
 
