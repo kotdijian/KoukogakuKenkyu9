@@ -1,4 +1,3 @@
-<img width="1093" alt="image" src="https://github.com/user-attachments/assets/654cd9ac-3c29-41f9-a916-23eb95b2b42b" />---
 # 考古地理空間情報分析のためのQGIS操作マニュアル
 #### ver.2025.00
  - 本マニュアルはQGIS 3.40 に準拠しています
