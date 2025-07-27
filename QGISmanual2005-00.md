@@ -42,9 +42,13 @@
 - 国土地理院：日本の測地系　https://www.gsi.go.jp/sokuchikijun/datum-main.html
 - 解説：https://qgis.mierune.co.jp/posts/howto_set_crs
 - トラブルシューティング：https://qgis.mierune.co.jp/posts/howto_crs_faq
+---
+### 2. 基本操作
+- **手のひらツール**：画面のスクロール
+- **
 
 ---
-### 2. 地図の表示
+### 3. 地図の表示
 
 #### タイル地図を表示する
 
