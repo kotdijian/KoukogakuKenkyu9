@@ -224,8 +224,25 @@ layout: false
 * [野口　淳(2021)「考古学・文化財地理空間情報のオープンデータ化、整備と活用」 『デジタル技術による文化財情報の記録と利活用3』奈良文化財研究所研究報告27](http://doi.org/10.24484/sitereports.90271-15056)
 * [野口　淳(2022)「考古学・埋蔵文化財GISデータの標準化、ファイルフォーマット、オープン化」 『デジタル技術による文化財情報の記録と利活用4』奈良文化財研究所研究報告33](http://doi.org/10.24484/sitereports.115736-63532)
 * [藤井幸司(2022)「遺跡地図の行政的な位置づけとデジタル化動向等について」 『デジタル技術による文化財情報の記録と利活用4』奈良文化財研究所研究報告33](http://doi.org/10.24484/sitereports.115736-63529)
+
+[![遺跡地図GIS1](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/ArchaeoGIS01.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/ArchaeoGIS01.png)  
+[![遺跡地図GIS2](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/ArchaeoGIS02.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/ArchaeoGIS02.png)  
+
+
 ---
 ###### 15
+## 古代寺院3D-GIS科研
+#### [科研費基盤研究(B)「考古学ビッグデータと3D-GISの統合による古代寺院立地・造営・景観論](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-24K00142/)
+* 研究代表者：野口　淳
+* 実施期間：2024〜2028年度
+* 研究分担者：	谷川 遼（奈良県立橿原考古学研究所）、仲林 篤史（京都府立大学）、高田 祐一（奈良文化財研究所）、瀬戸 寿一（駒澤大学）、武内 樹治（奈良文化財研究所）
+* 研究協力者：依田 亮一（国分寺市教育委員会）、寺前めぐみ（国分寺市教育委員会）、荒井 秀規（明治大学）、中村 良介（産業技術総合研究所）、千葉 達朗（アジア航測）
+
+
+
+
+---
+###### 16
 ## 全国文化財総覧（旧・全国遺跡報告総覧）と[文化財総覧WebGIS](https://heritagemap.nabunken.go.jp/)
 
 [![総覧WebGIS](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/SORAN.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/SORAN.png)   
