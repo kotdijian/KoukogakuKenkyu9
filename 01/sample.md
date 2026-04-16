@@ -244,7 +244,6 @@ layout: false
 #### [趣旨説明：考古学・古代史研究のベースレジストリとしての遺跡地図](https://researchmap.jp/anoguchi/presentations/50946192)
 
 [![遺跡地図GIS1](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/ArchaeoGIS01.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/ArchaeoGIS01.png)  
-[![遺跡地図GIS2](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/ArchaeoGIS02.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/01/figs/ArchaeoGIS02.png)  
 
 ---
 ###### 17
