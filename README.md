@@ -17,13 +17,19 @@
 
 1. (4/16)  [第1回　ガイダンス、考古地理空間情報の基礎](https://kotdijian.github.io/KoukogakuKenkyu9/01/)
    
-2. (4/23) 第2回　整然データ、データベース、データリポジトリ（Github） #(https://kotdijian.github.io/KoukogakuKenkyu9/02/)
+2. (4/23) 第2回　整然データ、データベース、データリポジトリ（Github）
+
+ <!--　(https://kotdijian.github.io/KoukogakuKenkyu9/02/)　-->
 
 (2026/4/30は休講予定）
    
-3. (5/7) 第3回　WebGISの利用（地理院地図、ひなたGIS） #(https://kotdijian.github.io/KoukogakuKenkyu9/03/)
+3. (5/7) 第3回　WebGISの利用（地理院地図、ひなたGIS） 
 
-4. (5/14) 第4回　地理空間データの検索・取得・作成・調整実習 #(https://kotdijian.github.io/KoukogakuKenkyu9/04/)
+<!-- (https://kotdijian.github.io/KoukogakuKenkyu9/03/) -->
+
+4. (5/14) 第4回　地理空間データの検索・取得・作成・調整実習 
+
+<!-- (https://kotdijian.github.io/KoukogakuKenkyu9/04/) -->
 
 5. (5/21) 第5回　QGISの基本操作
 
@@ -33,11 +39,17 @@
 
 8. (6/11) 第8回　QGISを用いた地理空間情報分析実習3
 
-9. (6/18) 第9回　QGISを用いた作図・デジタルトレース実習 #https://github.com/kotdijian/KoukogakuKenkyu9/tree/a635d5b706a3b3f6d5e6a58843fd8dbeb85ccede/09)
+9. (6/18) 第9回　QGISを用いた作図・デジタルトレース実習
 
-10. (6/25) 第10回　統計解析用プログラミング言語Rについて #(https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/10)
+<!-- https://github.com/kotdijian/KoukogakuKenkyu9/tree/a635d5b706a3b3f6d5e6a58843fd8dbeb85ccede/09) -->
 
-11. (7/2) 第11回　地理空間情報分析計画 #(https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/11)
+10. (6/25) 第10回　統計解析用プログラミング言語Rについて 
+
+<!-- (https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/10) -->
+
+11. (7/2) 第11回　地理空間情報分析計画 
+
+<!-- (https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/11) -->
 
 12. (7/9) 第12回　地理空間情報分析実習
 
