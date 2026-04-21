@@ -53,3 +53,11 @@ layout: false
 * [公式ドキュメント](https://docs.github.com/ja/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 * [GitHub Desktopの使い方](https://qiita.com/yasu_qita/items/3a24322f0ebdd443ba7e)
 
+---
+
+###### 6
+# GitHubリポジトリからファイルを取得する
+1. 該当するリポジトリを開きます
+2. ファイルを選択します
+3. 
+[![GithubButton](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/02/figs/GithubButton.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/02/figs/GithubButton.png)  
