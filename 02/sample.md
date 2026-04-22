@@ -113,6 +113,6 @@ layout: false
 	* 一般的な文書や表は人間が読むことに適したかたちになっていますが機械には適していません
 	* 機械に読み込み・処理させるためにはプログラミング言語に適した形式にする必要があります
 	* そのようなデータを**整然データ(tidy data)**と呼びます
-	##### [整然データとは何か](https://id.fnshr.info/2017/01/09/tidy-data-intro/#toc-heading-0)
+	#### [整然データとは何か](https://id.fnshr.info/2017/01/09/tidy-data-intro/#toc-heading-0)
 	
 5. 
