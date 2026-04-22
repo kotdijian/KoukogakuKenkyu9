@@ -156,4 +156,5 @@ Microsoft AccessやFileMakerなど→DBMS(Database Management System)
 	* Excelでもシートをデータテーブルに変換し、VLOOKUP関数やビボットテーブルを使うことでリレーショナルデータベース化が可能
 
 * インデックス(UID)の重要性
+
 **複数のテーブル間の対応を確立するために*同じデータ*を特定する**
