@@ -50,6 +50,8 @@ layout: false
 
 ###### 5
 # GitHub Desktopのインストール
+* GitHub Desktopはボタンと簡単な入力（GUI）でGitHubを操作することができるデスクトップアプリです。
+* GitHub Desktopを使うと、ローカルリポジトリ＝ウェブ上ではなく手元のPCに作成されたリポジトリを常に同じ状況に保つことができます。
 * [公式ドキュメント](https://docs.github.com/ja/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 * [GitHub Desktopの使い方](https://qiita.com/yasu_qita/items/3a24322f0ebdd443ba7e)
 
@@ -59,5 +61,19 @@ layout: false
 # GitHubリポジトリからファイルを取得する
 1. 該当するリポジトリを開きます
 2. ファイルを選択します
-3. 
+3. Preview画面の右上のダウンロードボタンをクリックする。フォルダ、ファイル名を指定して実行する。
 [![GithubButton](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/02/figs/GithubButton.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/02/figs/GithubButton.png)  
+
+---
+
+###### 7
+# GitHub Desktopの使い方
+1. 基本操作
+	* Fetch: リモートとローカルを同期する
+	* Pull: リモート上の変更をローカルに反映させる
+	* Push: ローカル上の変更をリモートに反映させる
+2. クローンの作成
+　* GitHub Desktopの*File* > *Clone Repository* を選択
+ 
+
+---
