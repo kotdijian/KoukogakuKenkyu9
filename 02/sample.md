@@ -69,11 +69,11 @@ layout: false
 ###### 7
 # GitHub Desktopの使い方
 1. 基本操作
-	* Fetch: リモートとローカルを同期する
+	* Fetch: リモート(Origin)とローカルを同期する
 	* Pull: リモート上の変更をローカルに反映させる
 	* Push: ローカル上の変更をリモートに反映させる
 2. クローンの作成
-　* GitHub Desktopの*File* > *Clone Repository* を選択
+　* GitHub Desktopの**File** > **Clone Repository** を選択
  
 
 ---
