@@ -176,3 +176,18 @@ Microsoft AccessやFileMakerなど→DBMS(Database Management System)
 
 ---
 ###### 15
+
+#### 生成AIの種類(モダリティ)
+* テキスト (GPT-5: OpenAI, LamDA: Google, LLaMA: META)
+* プログラミングコード (OpenAI Codex)
+* 画像 (Imagen: Google, DALL-E: OpenAI, Midjourney, Stabel Diffusion)
+* 動画, 音楽
+
+#### 自然言語学習・言語モデル(Language Model)
+* 文字・単語の組み合わせを学習 <> 無意味で使われない組み合わせを対象外とする
+* **= 文章内においてある単語の後に続く単語の確立を予測する**
+
+---
+###### 16
+
+#### 
