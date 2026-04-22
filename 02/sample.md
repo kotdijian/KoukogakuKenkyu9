@@ -80,7 +80,7 @@ layout: false
 4. 変更とプッシュ
 	* リポジトリ内のファイルを変更、または新しいファイルを作成
 	* 左側 **Changes** パネル下方の**Commit ## file to main** をクリック
-	* 上方の **Push to Origin** をクリック
+	* 上方の **Push Origin** をクリック
 
  
 
