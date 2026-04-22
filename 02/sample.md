@@ -73,7 +73,15 @@ layout: false
 	* Pull: リモート上の変更をローカルに反映させる
 	* Push: ローカル上の変更をリモートに反映させる
 2. クローンの作成
-　* GitHub Desktopの**File** > **Clone Repository** を選択
+	* GitHub Desktopの**File** > **Clone Repository** を選択
+	* GitHub.comの**your repository** から作成済みのリポジトリを選択する
+3. ローカルリポジトリの確認
+	* ローカルリポジトリが作成されたフォルダを開く
+4. 変更とプッシュ
+	* リポジトリ内のファイルを変更、または新しいファイルを作成
+	* 左側 **Changes** パネル下方の**Commit ## file to main** をクリック
+	* 上方の **Push to Origin** をクリック
+
  
 
 ---
