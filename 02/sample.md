@@ -137,6 +137,15 @@ layout: false
 ---
 ###### 12
 # データベース
+
 > データベースは、電子的に保存され、アクセスできる組織化されたデータの集合である。
 [Wikipedia「データベース」](https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9)
+
+Q. Excelやスプレッドシートはデータベース?
+A. はい、整然データとして作成されているExcelやスプレッドシートはデータベースの要件を満たします
+
+Microsoft AccessやFileMakerなど→DBMS(Database Management System)
+データベース用プログラミング言語=SQL
+
+---
 
