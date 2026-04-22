@@ -23,14 +23,12 @@ layout: false
 * バージョン管理：異なる作業結果を照合し差分を提示、分岐や統合を管理します。
 
 ---
-
 ###### 2
 # GitHubリポジトリを見てみよう
 * [本授業の公開リポジトリ](https://github.com/kotdijian/KoukogakuKenkyu9)
 * [リポジトリをWebページにできます](https://kotdijian.github.io/KoukogakuKenkyu9/)
 
 ---
-
 ###### 3
 # GitHubアカウントの取得
 
@@ -38,7 +36,6 @@ layout: false
 * 2要素認証を設定しましょう
 
 ---
-
 ###### 4
 # GitHubリポジトリの作成
 * [公式ドキュメント](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-new-repository)
@@ -47,7 +44,6 @@ layout: false
 * 公開リポジトリとして運用する場合は個人情報・機微情報を掲載しないこと
 
 ---
-
 ###### 5
 # GitHub Desktopのインストール
 * GitHub Desktopはボタンと簡単な入力（GUI）でGitHubを操作することができるデスクトップアプリです。
@@ -56,7 +52,6 @@ layout: false
 * [GitHub Desktopの使い方](https://qiita.com/yasu_qita/items/3a24322f0ebdd443ba7e)
 
 ---
-
 ###### 6
 # GitHubリポジトリからファイルを取得する
 1. 該当するリポジトリを開きます
@@ -65,7 +60,6 @@ layout: false
 [![GithubButton](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/02/figs/GithubButton.png)](https://raw.github.com/kotdijian/KoukogakuKenkyu9/master/02/figs/GithubButton.png)  
 
 ---
-
 ###### 7
 # GitHub Desktopの使い方
 1. 基本操作
@@ -87,7 +81,6 @@ layout: false
 	* リモートリポジトリ側で変更を確認（必要に応じてページを再読み込み）
 
 ---
-
 ###### 8
 # 整然データ
 1. 基本原則
@@ -106,7 +99,6 @@ layout: false
 	* 人間にもわかりやすい形式で機械語に変換可能な**プログラミング言語**が用意されています
 	
 ---
-
 ###### 9
 # 整然データ（続）
 4. 人間可読 (Human readable)、機械可読 (Machine readable)
@@ -116,7 +108,6 @@ layout: false
 #### [整然データとは何か](https://id.fnshr.info/2017/01/09/tidy-data-intro/#toc-heading-0)
 	
 ---
-
 ###### 10
 # 整然データの基本
 * ひとつながりのデータは1行におさめられている
@@ -126,3 +117,14 @@ layout: false
 
 ### 重要!!
 **クロス集計表は整然データではない!**
+**集計は原データではなく、計算(集計)結果であり出力です**
+
+---
+###### 11
+# データの型
+### 数値型
+	* 整数型、固定小数点型、浮動小数点型（単精度・倍精度）
+	** 有効桁数に注意**
+### 文字型
+### その他の特定データ型
+	**日付型**
