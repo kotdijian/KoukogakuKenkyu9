@@ -5,7 +5,7 @@ class: center, middle, white
 # 整然データ・データベース・データリポジトリ・生成AIとデータリテラシー
 
 ## 考古学研究9
-#### 第2回目(2025/4/23)
+#### 第2回目(2026/4/23)
 
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 ---
