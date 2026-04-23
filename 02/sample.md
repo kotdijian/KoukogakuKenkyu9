@@ -246,4 +246,5 @@ Microsoft AccessやFileMakerなど→DBMS(Database Management System)
 * SamplePrompt01: 段階的な探索を行わさせるプロンプト例
 * SamplePrompt02: SamplePrompt01をChatGPT-5 thinkingにより、ChatGPT-5に最適化させたもの
 * SamplePrompt03: ChatGPT-5 thinkingのサジェスチョンにより文献検索用にチューニングしたもの
-* 
+* SamplePrompt04: ChatGPT-5 thinkingのサジェスチョンにより研究計画書作成用にチューニングしたもの
+* SamplePrompt05: ChatGPT-5 thinkingのサジェスチョンによりGIS分析設計用にチューニングしたもの
