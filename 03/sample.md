@@ -6,7 +6,7 @@ class: center, middle, white
 # （地理院地図、ひなたGIS）
 
 ## 考古学研究9
-#### 第3回目(2025/5/1)
+#### 第3回目(2026/4/30)
 
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 ---
