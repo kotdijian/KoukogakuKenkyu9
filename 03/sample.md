@@ -217,8 +217,21 @@ layout: false
 
 ---
 
-
 ###### 14
+### GoogleEarth
+* Google社が提供するWeb GIS　[https://earth.google.com/web/?hl=ja](https://earth.google.com/web/?hl=ja)
+* 「デジタル地球儀」のキャッチフレーズの通り、球面上に3Dで地図や衛星画像を表示できる
+* データの読み込み・書き出しが可能
+* Googleドライブ連携が便利
+* Pro(デスクトップ版)はさらに多機能(だがWebGISではない)
+
+* **表示される地図・画像はGoogle社ほか提供企業のライセンスで保護されているので二次利用時には要注意**
+
+
+ 
+---
+
+###### 16
 ### 次回予告：地理院地図またはひなたGISで自分のテーマの分布図を作成する
 
 #### 基本的に [「もくもく会」](https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%8F%E3%82%82%E3%81%8F%E4%BC%9A_(%E9%9B%86%E4%BC%9A) 形式で行います。
