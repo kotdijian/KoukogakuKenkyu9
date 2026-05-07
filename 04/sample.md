@@ -12,33 +12,6 @@ class: center, middle, white
 layout: false
 
 ###### 1
-#### ちょっと寄り道：4/29〜5/7（日本時間5/8）の旅程と要務
-<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/map.png" width="100%">
-
-
----
-
-###### 2
-#### 文化庁文化遺産国際協力拠点交流事業（公立小松大学）
-* ホンジュラス・コパン、グアテマラ・ティカルで現地スタッフに3D計測の講習
-* iPadによるLiDARスキャン、Metashapeによるフォトグラメトリ
-* CloudCompareを利用したデータ加工
-* ハンディスキャナー（Einstar）の実演（グアテマラ人大学院生）
-* UnrealEngineを利用したVRコンテンツの解説（グアテマラ人大学院生）
-* *2020年から5年目（1期2年の3期目）*
-* 講習と実習から、現地スタッフ内に「指導者」を育てるフェーズ
-
----
-<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6303.JPEG" width="100%">
-
-
----
-<img src="https://raw.githubusercontent.com/kotdijian/KoukogakuKenkyu9/master/04/IMG_6314.JPEG" width="100%">
-
-
----
-
-###### 5
 ### 自分自身の考古地理情報データセットを準備しよう
 * データセットの要件：位置情報（住所 or 座標）＋属性情報
 * 同じ列に同じ内容　**属性情報も!**
