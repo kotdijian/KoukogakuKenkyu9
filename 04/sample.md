@@ -29,7 +29,7 @@ layout: false
 
 ---
 
-###### 6
+###### 2
 ### GitHubとGitHub desktop 使いこなせてますか?
 * [第2回](https://kotdijian.github.io/KoukogakuKenkyu9/02) の内容をもう一度おさらい
 * 基本的な作業はローカル（手元のPC上）で
@@ -38,7 +38,7 @@ layout: false
 
 ---
 
-###### 7
+###### 3
 ### [地理院地図](https://maps.gsi.go.jp/) の操作
 #### [第3回](https://kotdijian.github.io/KoukogakuKenkyu9/03) を思い出して
 
@@ -54,7 +54,7 @@ layout: false
 
 ---
 
-###### 8
+###### 4
 ### [ひなたGIS](https://hgis.pref.miyazaki.lg.jp/hinata/)の操作
 1. シフトJISデータを用意する
 2. シフトJISデータをドラッグ&ドロップする、または画面上を右クリック > ファイル読み込み
@@ -68,7 +68,7 @@ layout: false
 
 ---
 
-###### 9
+###### 5
 ### 縮尺について
 * Web地図やGISは可変ズームなので従来のような「縮尺」の概念がありません
 * 代わりに「ズームレベル」で縮尺を考えます（ [国土地理院「地理院タイルについて」](https://maps.gsi.go.jp/development/siyou.html) ）
@@ -79,10 +79,10 @@ layout: false
 
 ---
 
-###### 10
+###### 16
 ### 課題の提出方法
-1. Waseda Moodle のアンケートにテーマ、使用データ、公開の可否を入力
-2. リポジトリ公開する場合はURLをメール
+1. メールにテーマ、使用データ、公開の可否を記入して送信
+2. リポジトリ公開する場合はURLをメールに記入
 3. 公開しない場合はデータの概要（属性情報の項目一覧、データソース）、画面キャプチャをメール
 
 
