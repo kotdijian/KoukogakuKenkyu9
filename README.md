@@ -22,9 +22,7 @@
    
 3. (4/30) [第3回　WebGISの利用（地理院地図、ひなたGIS）](https://kotdijian.github.io/KoukogakuKenkyu9/03/)
 
-4. (5/7) 第4回　地理空間データの検索・取得・作成・調整実習 
-
-<!-- (https://kotdijian.github.io/KoukogakuKenkyu9/04/) -->
+4. (5/7) [第4回　地理空間データの検索・取得・作成・調整実習](https://kotdijian.github.io/KoukogakuKenkyu9/04/)
 
 5. (5/14) 第5回　QGISの基本操作
 
