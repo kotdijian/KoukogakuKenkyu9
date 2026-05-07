@@ -5,7 +5,7 @@ class: center, middle, white
 # 第4回：地理空間データの検索・取得・作成・調整実習
 
 ## 考古学研究9
-#### 第4回目(2025/5/7)
+#### 第4回目(2025/5/8)
 
 [授業ページトップに戻る](https://kotdijian.github.io/KoukogakuKenkyu9/)
 ---
