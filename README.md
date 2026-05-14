@@ -24,7 +24,7 @@
 
 4. (5/7) [第4回　地理空間データの検索・取得・作成・調整実習](https://kotdijian.github.io/KoukogakuKenkyu9/04/)
 
-5. (5/14) 第5回　QGISの基本操作
+5. (5/14) [第5回　QGISの基本操作](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/QGISmanual2026-00.md)
 
 6. (5/21) 第6回　QGISを用いた地理空間情報分析実習1
 
