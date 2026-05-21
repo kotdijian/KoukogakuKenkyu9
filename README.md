@@ -26,7 +26,7 @@
 
 5. (5/14) [第5回　QGISの基本操作](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/QGISmanual2026-00.md)
 
-6. (5/21) 第6回　QGISを用いた地理空間情報分析実習1
+6. (5/21) [第6回　QGISを用いた地理空間情報分析実習1](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/QGISmanual2026-00.md)
 
 7. (5/28) 第7回　QGISを用いた地理空間情報分析実習2
 
