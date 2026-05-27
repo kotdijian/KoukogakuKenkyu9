@@ -28,9 +28,9 @@
 
 6. (5/21) [第6回　QGISを用いた地理空間情報分析実習1](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/QGISmanual2026-00.md)
 
-7. (5/28) 第7回　QGISを用いた地理空間情報分析実習2
+7. (5/28) [第7回　QGISを用いた地理空間情報分析実習2](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/QGISmanual2026-00.md)
 
-8. (6/4) 第8回　QGISを用いた地理空間情報分析実習3
+8. (6/4) [第8回　QGISを用いた地理空間情報分析実習3](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/QGISmanual2026-00.md)
 
 9. (6/11) 第9回　QGISを用いた作図・デジタルトレース実習
 
