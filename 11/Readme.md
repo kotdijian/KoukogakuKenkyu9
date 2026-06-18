@@ -62,6 +62,16 @@
 - 抄録・位置情報も総覧へ
 - 空間情報の公開共有と集約はまだこれから
 
+### 遺跡地図のウェブリソース
+- [都道府県](https://github.com/kotdijian/JASOSR/blob/master/00General/ArchMap01_Prefecture.csv)
+- [政令指定都市](https://github.com/kotdijian/JASOSR/blob/master/00General/ArchMap02_Ordinance-dsignatedCity.csv)
+- [基礎自治体](https://github.com/kotdijian/JASOSR/blob/master/00General/ArchMap03_Municipality.csv)
+
+### 利用可能なデータベース
+- [日本の考古学データベース](https://github.com/kotdijian/JASOSR/blob/master/00General/ArchDB01.csv)
+- [日本の考古学データベース2](https://github.com/kotdijian/JASOSR/blob/master/00General/ArchDB02.csv)
+- [海外の考古学GISデータベース](https://github.com/kotdijian/JASOSR/blob/master/00General/ArchDB_overseas.csv)
+
  
 
 
