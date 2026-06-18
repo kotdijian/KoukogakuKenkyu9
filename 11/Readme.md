@@ -57,6 +57,10 @@
 - Historic England: ローマ時代のブリテン島
 ![Roman Britain](https://github.com/kotdijian/KoukogakuKenkyu9/blob/main/11/fig03.png)
 
+#### 日本の現状
+- 紙ベースの報告書: PDF化、[全国文化財総覧](https://sitereports.nabunken.go.jp/ja)への集約
+- 抄録・位置情報も総覧へ
+- 空間情報の公開共有と集約はまだこれから
 
  
 
