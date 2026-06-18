@@ -36,9 +36,7 @@
 
 <!-- https://github.com/kotdijian/KoukogakuKenkyu9/tree/a635d5b706a3b3f6d5e6a58843fd8dbeb85ccede/09) -->
 
-10. (6/18) 第10回　統計解析用プログラミング言語Rについて 
-
-<!-- (https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/10) -->
+10. (6/18) 第10回　~~統計解析用プログラミング言語Rについて~~ [地理空間情報の取得と分析計画](https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/10)
 
 11. (6/25) 第11回　地理空間情報分析計画 
 
