@@ -42,7 +42,7 @@
 
 <!-- (https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/11) -->
 
-12. (7/2) 第12回　地理空間情報分析実習
+12. (7/2) [第12回　地理空間情報分析実習](https://github.com/kotdijian/KoukogakuKenkyu9/tree/main/12)
 
 13. (7/9) 第13回　地理空間情報分析実習
 
